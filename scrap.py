@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 drive.mount('/content/drive')
 
 # Replace 'your_url_here' with the actual URL of the webpage containing the table
-url = 'your_url_here'
+url = 'https://rekais.github.io/RoadTrafficaccident-/'
 
 # Fetch the HTML content
 response = requests.get(url)
